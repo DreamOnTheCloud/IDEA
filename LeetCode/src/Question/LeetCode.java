@@ -106,3 +106,25 @@ class Solution1662 {
         System.out.println(new Solution1662().arrayStringsAreEqual(new String[]{"SDA","SAD"} , new String[]{"SD","ASAD"}));
     }
 }
+
+class Solution2185 {
+    /**
+     * 判断字符串每个元素的前缀是不是某个字符
+     * @param words
+     * @param pref 参数为一个字符串与一个字符串数组
+     * @return 返回值为匹配的数量
+     */
+    public int prefixCount(String[] words, String pref) {
+        int count = 0;
+        for (int i = 0; i < words.length; i++){
+            if (words[i].startsWith(pref)){ //直接将字符串的每一项拿出来用words[i].starts.With(pref);去逐个匹配是否相等
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Solution2185().prefixCount(new String[]{"ass","ass","ads"} , new String("as")));
+    }
+}
