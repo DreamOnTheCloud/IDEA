@@ -3,8 +3,7 @@ package Method;
 public class startsWith_endWith判断前后缀 {
     /**
           startsWidth此方法用于匹配一个字符串的前缀是否为另一个字符串
-          @param str
-          @param pref
+          @param pref 参数为要判断前缀是否为此参数值
           @return 返回值为整形的结果(有几项前缀是以某字符串开头的)
      */
     public static int startsWidth(String []str , String pref){
@@ -20,7 +19,6 @@ public class startsWith_endWith判断前后缀 {
 
     /**
      startsWidth此方法用于匹配一个字符串的前缀是否为另一个字符串
-     @param str
      @param pref
      @return 返回值为整形的结果(有几项前缀是以某字符串开头的)
      */
