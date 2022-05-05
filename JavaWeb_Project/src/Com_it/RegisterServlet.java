@@ -3,6 +3,7 @@ package Com_it;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
+<<<<<<< HEAD
 import javax.swing.text.html.HTML;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -41,5 +42,22 @@ public class RegisterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request,response);
+=======
+import java.io.IOException;
+import java.io.PrintWriter;
+
+@WebServlet(name = "RegisterServlet", value = "/RegisterServlet")
+public class RegisterServlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter(); //实例化输出对象
+        out.println("My First Servlet");
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+>>>>>>> origin/master
     }
 }
