@@ -19,7 +19,7 @@
         <tr bgcolor="#FFFFFF">
             <th scope="row">用户名:</th>
             <td><input type="text" name="userName"></td>
-        </tr  02202002
+        </tr>
         <tr bgcolor="#FFFFFF">
             <th scope="row">密码:</th>
             <td><input type="password" name="userPwd"></td>

@@ -129,8 +129,6 @@ public class 习题 {
             }
         }
         System.out.println("本期中将号码为:" + ran);
-
-        //【7】
     }
 }
 

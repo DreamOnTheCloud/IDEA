@@ -326,7 +326,7 @@ class Solution旋转图形 { //旋转矩阵
 
 
 
-class 蛇形{
+class Solution59{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("输入一个数字:");
