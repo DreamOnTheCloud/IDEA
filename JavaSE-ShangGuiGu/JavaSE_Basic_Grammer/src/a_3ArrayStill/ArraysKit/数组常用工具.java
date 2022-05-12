@@ -1,4 +1,4 @@
-package a_3ArrayStill.ArraysKit;
+package ArrayStill.ArraysKit;
 
 public class 数组常用工具 {
 
